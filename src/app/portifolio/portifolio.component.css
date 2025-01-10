@@ -1,0 +1,49 @@
+.portfolio{
+    padding-top: 200px;
+    min-height: 150vh;
+}
+  .portfolio .ii .icon3{
+    color: black;
+    text-align: center;
+    position: relative;
+  }
+  .portfolio .ii .icon3::after{
+    content: "";
+    width: 90px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 530px;
+  }
+  .portfolio .ii .icon3::before{
+    content: "";
+    width: 90px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    right: 530px;
+  }
+  .portfolio .picture {
+    position: relative;
+    width: 95%;
+  }
+  .portfolio .layer {
+    background-color: #29b197;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .portfolio .picture:hover .layer {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .portfolio .layer i {
+    font-size: 96px;
+    color: white;
+  }

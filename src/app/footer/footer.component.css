@@ -1,0 +1,17 @@
+.myfooter{
+    background-color: #2C3E50;
+    min-height: 40vh;
+}
+.aboutweb i{
+    padding-top: 5px;
+    color:white;
+    height: 40px;
+    width: 40px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 1px white;
+    font-size: 22px;
+    border-radius: 50%;
+    line-height: 1.55;
+   margin-left: 10px;
+    text-align: center;
+}

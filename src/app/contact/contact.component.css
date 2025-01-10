@@ -1,0 +1,53 @@
+.contact{
+    min-height: 100vh;
+    padding-top: 100px;
+}
+.contact .icon4{
+    position: relative;
+    text-align: center;
+    
+}
+.contact .icon4::after{
+    content:" ";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 8px;
+    right: 530px;
+    background-color:black;
+}
+.contact .icon4::before{
+    content:" ";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 8px;
+    left:530px;
+    background-color:black;
+}
+.contact input {
+    height: 50px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 700px;
+  }
+  .contact button {
+    background-color: #1abc9c;
+  }
+  .alertName {
+    color: #1abc9c;
+  }
+  .alertAge {
+    color: #1abc9c;
+  }
+  .alertEmail {
+    color: #1abc9c;
+  }
+  .alertPassword {
+    color: #1abc9c;
+  }
+
+
+ 

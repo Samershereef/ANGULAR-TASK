@@ -1,0 +1,28 @@
+.about{
+    min-height: 95vh;
+    background-color: #1ABC9C;
+    padding-top: 300px;
+}
+.about .icon1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.about .icon1::after{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 10px;
+    right:630px;
+    background-color:white;
+}
+.about .icon1::before{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 10px;
+    left:630px;
+    background-color:white;
+}

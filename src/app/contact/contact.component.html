@@ -1,0 +1,48 @@
+<section class="contact">
+  <div class="container">
+
+  <h1 class="text-center text-uppercase text-body-emphasis fs-1 fw-bolder">conatct section</h1>
+   <div class="icon4"><i class="fa-solid fa-star"></i></div>
+  </div>
+  <div class="container"> 
+  <div class="row pt-5 mt-5">
+      <div class="col-md-12 d-flex flex-column w-50 mx-auto">
+        @if (text !== null && text !=="") {
+          <div class="alertName">
+            <span>userName:</span>
+          </div>
+          } 
+        <input type="text" placeholder="userName" [(ngModel)]="text">
+        @if (number !== null ) {
+          <div class="alertAge">
+            <span>userAge:</span>
+          </div>
+          }
+        <input type="number" placeholder="userAge" [(ngModel)]="number">
+        @if (email !== null && email !=="") {
+          <div class="alertEmail">
+            <span>userEmail:</span>
+          </div>
+          }
+        <input type="email"placeholder="userEmail" [(ngModel)]="email" >
+        @if (password !== null && password !=="") {
+          <div class="alertPassword">
+            <span>userPassword:</span>
+          </div>
+          }
+        <input type="password" placeholder="userPassword" [(ngModel)]="password">
+        <div>
+          <div class="d-grid gap-2 d-md-block">
+            <button class="btn ps-2 text-white" type="button"> send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+</section>
+
+
+
+ 
